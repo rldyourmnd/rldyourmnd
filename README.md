@@ -15,7 +15,7 @@
 I'm an experienced **Data Science & ML Specialist** with a background in systems architecture and a passion for building impactful AI solutions.
 
 - 🎓 ITMO University student with strong mathematical foundations
-- 🧠 Co-founder of an **AI/IT outsourcing company** with [@nikesh16](https://github.com/nikesh16)
+- 🧠 Founder of an **AI/IT outsourcing company**
 - 🔬 Delivered **10+ commercial ML projects** with complex architectures
 - 🏗️ Designed **20+ scalable system architectures** from the ground up
 - 📊 Expert in advanced statistical methods and mathematical modeling
