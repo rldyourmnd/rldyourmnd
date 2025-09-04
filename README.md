@@ -14,7 +14,7 @@
 
 </div>
 
-## 🚀 About Me
+# 🚀 About Me
 
 👋 **Hey there!** I'm an experienced **Data Scientist** with **4+ years** of commercial practice and proud **founder** of **NDDev** (~10 amazing people team). 
 
@@ -29,7 +29,7 @@
 
 ✨ **My philosophy:** *"Make technology simple for everyone"*
 
-## 🛠️ Key Projects & Achievements
+# 🛠️ Key Projects & Achievements
 
 ### 🏢 **NDDev Company Highlights:**
 - 🛣️ **Computer Vision for Road Infrastructure** - Making roads safer with AI
@@ -45,7 +45,7 @@
 - 🥇 **1st place** - Kaspersky Hackathon
 - 🎯 **4th place** - AI Talent Hub ITMO
 
-## Technical Skills
+# Technical Skills
 
 <table>
 <tr>
@@ -175,7 +175,7 @@
 </tr>
 </table>
 
-## 💼 Professional Experience
+# 💼 Professional Experience
 
 ### 🚀 **Founder / Data Scientist / AI&System Architect** | NDDev (2023 - Present)
 > *Building the future, one AI solution at a time*
@@ -192,7 +192,7 @@
 - ✨ **Interface optimization** and **UX improvements** *(making things beautiful AND functional)*
 - 🔗 **API integration** and service configuration *(connecting all the pieces)*
 
-## 🎓 Education & Development
+# 🎓 Education & Development
 
 ### 🏫 **ITMO University** 
 📚 *Faculty of Programming and Computer Technologies*
@@ -208,7 +208,7 @@
 ### 👨‍🏫 **Mentoring & Sharing Knowledge:**
 💡 **Helping others grow** - mentoring team developers and colleagues in **AI/ML technologies** *(because great knowledge should be shared!)*
 
-## 🎯 Interests & Lifestyle
+# 🎯 Interests & Lifestyle
 
 ### 🌟 **What Makes Me Happy:**
 
@@ -236,7 +236,7 @@
 ### 🌍 **Career Flexibility:**
 ✅ **Open to:** Remote work and relocation opportunities worldwide *(ready for the next adventure!)*
 
-## 📬 Let's Connect!
+# 📬 Let's Connect!
 
 > *Always up for interesting conversations and new opportunities!*
 
