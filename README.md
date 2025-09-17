@@ -40,10 +40,10 @@
 
 ### 🏆 **Competition Achievements:**
 > *Proving that great ideas deserve recognition!*
-- 🥈 **2nd place** - Digital Almaty Product Hackathon
-- 🥉 **3rd place** - NASA Space Apps Challenge  
-- 🥇 **1st place** - Kaspersky Hackathon
-- 🎯 **4th place** - AI Talent Hub ITMO
+- 🥈 **2nd place** - Digital Almaty Product Hackathon (2024)
+- 🥉 **3rd place** - NASA Space Apps Challenge (2022) 
+- 🥇 **1st place** - Kaspersky Hackathon (2023)
+- 🎯,🥇 **4th, 1st place** - AI Talent Hub ITMO (2024, 2025)
 
 # Technical Skills
 
