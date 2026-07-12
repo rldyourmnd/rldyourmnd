@@ -2,8 +2,8 @@
 GENERATED FILE - DO NOT EDIT DIRECTLY
 generator: gds
 bundle: 0.1.0-dev
-source-commit: bb9865d7d52e72787ad8f95ab7e70a0869d784aa
-input-digest: sha256:f530d3e6e8edf694431d177e303f864a924e1d5d4b29bfd908bcea03726c4217
+source-commit: c93a1c90d7010a713ac9030f8fbbd9b28e2f15ad
+input-digest: sha256:86876e2bf8b20ab032be83ac001d6951f733df05590ea69ecd1123dd1a7174e9
 output-digest: sha256:342d720647dd051899bcf1b22c8762aed9fc13c97d34a363252d7c97f25e39b1
 edit-source:
   - .gds/repository.yaml
