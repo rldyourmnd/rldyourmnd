@@ -1,0 +1,44 @@
+schema_version: 1
+
+repository:
+  id: "repo_01KX8PR8BJEJWWKWFVBAV50C74"
+  display_name: "rldyourmnd"
+  roles:
+    - "docs"
+  lifecycle: "active"
+
+provider:
+  type: "github"
+  installation: "installation:github-personal"
+  repository_id: 974687860
+  owner: "rldyourmnd"
+  name: "rldyourmnd"
+
+classification:
+  portfolios:
+    - "portfolio:personal-projects"
+  visibility_contract: "public"
+  data_classification: "public"
+
+policy:
+  profiles:
+    - "repository-default"
+    - "personal-default"
+  rollout_ring: "standard"
+
+git:
+  default_branch: "main"
+  integration: "pull-request"
+  branch_model: "task-branches"
+  handoff_pr: "preferred"
+  cleanup: "merged-only"
+
+agent:
+  context_profile: "docs-default"
+  generated_agents: true
+  serena:
+    enabled: false
+    provenance_required: false
+
+release:
+  mode: "none"
