@@ -2,9 +2,9 @@
 GENERATED FILE - DO NOT EDIT DIRECTLY
 generator: gds
 bundle: 0.1.0-dev
-source-commit: c93a1c90d7010a713ac9030f8fbbd9b28e2f15ad
-input-digest: sha256:86876e2bf8b20ab032be83ac001d6951f733df05590ea69ecd1123dd1a7174e9
-output-digest: sha256:d33939063be58f5db2507f5f9c0687f4ce90b80cd2ba50e90d026df713976823
+source-commit: 02b9382e77ac77dead3c3a8551dea5f2e3b38fb8
+input-digest: sha256:d877fdc831d247630b8d168e1b4598c1deec9f37a69d526ba1f47dc4f12439e4
+output-digest: sha256:331c08df824341aabc6201a2c0936a3652fc60eedd12f87dbeb2d79233714fd6
 edit-source:
   - .gds/repository.yaml
   - policies/base/repository-default.yaml
@@ -46,7 +46,12 @@ edit-source:
 
 ## Claude workflow routing
 
-- Active skill profiles: `core`.
+- Start here: run `gds-orient` (or `gds context --json`) to resolve scope before
+  any cross-repository work.
+- Active skill profiles: `core`. Five profiles exist in total
+  (`core`, `estate-admin`, `module`, `device`, `portfolio`); only the listed ones
+  are active for this repository. The catalog is `skills/registry.yaml`, and each
+  skill lives under `skills/canonical/<name>/SKILL.md`.
 - Load procedural detail from the applicable installed GDS skill projection or
   plugin only when the task matches it.
 - Destructive workflows remain explicit-only and still require their concrete

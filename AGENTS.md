@@ -2,9 +2,9 @@
 GENERATED FILE - DO NOT EDIT DIRECTLY
 generator: gds
 bundle: 0.1.0-dev
-source-commit: c93a1c90d7010a713ac9030f8fbbd9b28e2f15ad
-input-digest: sha256:86876e2bf8b20ab032be83ac001d6951f733df05590ea69ecd1123dd1a7174e9
-output-digest: sha256:342d720647dd051899bcf1b22c8762aed9fc13c97d34a363252d7c97f25e39b1
+source-commit: 02b9382e77ac77dead3c3a8551dea5f2e3b38fb8
+input-digest: sha256:d877fdc831d247630b8d168e1b4598c1deec9f37a69d526ba1f47dc4f12439e4
+output-digest: sha256:3759767ba6e09a286d8533091f7a3ad0f647e950319fed96ac89d67701e65f9b
 edit-source:
   - .gds/repository.yaml
   - policies/base/repository-default.yaml
@@ -43,7 +43,12 @@ edit-source:
 
 ## Agent routing
 
-- Active skill profiles: `core`.
+- Start here: run `gds-orient` (or `gds context --json`) to resolve scope before
+  any cross-repository work. It is the orientation entry point.
+- Active skill profiles: `core`. Five profiles exist in total
+  (`core`, `estate-admin`, `module`, `device`, `portfolio`); only the listed ones
+  are active for this repository. The catalog is `skills/registry.yaml`, and each
+  skill lives under `skills/canonical/<name>/SKILL.md`.
 - Use on-demand skills for procedures; do not duplicate them here.
 - Treat docs and memories as derived evidence, not mutation authority.
 
