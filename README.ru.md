@@ -3,11 +3,51 @@
 **AI Staff Engineer · Архитектор систем и AI**  
 OSS-разработчик и контрибьютор. CEO [NDDev](https://nddev.it.com).
 
-Проектирую и разрабатываю AI-системы и инструменты для их создания.
+Создаю AI-системы, агентные процессы и инструменты разработки, от архитектуры до реализации.
 
 [Email](mailto:danil@nddev.it.com) · [Telegram](https://t.me/Danil_Silantyev) · [LinkedIn](https://www.linkedin.com/in/danil-silantyev-ai/) · [English](README.md)
 
-## Избранные работы
+## С чем работаю
+
+### Языки
+
+**Rust · Python · Go · C / C++ · TypeScript · Dart (Flutter)**  
+Также JavaScript, SQL и shell-скрипты.
+
+### Семь кодинг-харнессов
+
+**Claude Code · Codex · Grok Build · Pi · OpenCode · Cursor · Antigravity**
+
+Работаю с окружением модели: инструкциями, skills, MCP-серверами,
+LSP-интеграцией, hooks, commands, subagents и plugins. Для каждого харнесса
+использую его нативную конфигурацию, а не копию настроек другого инструмента.
+
+### Инструменты агентов
+
+| Область | Чем пользуюсь |
+| --- | --- |
+| Маршрутизация API | [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI), LiteLLM, OpenRouter |
+| Дизайн и ревью кода | [Impeccable](https://github.com/pbakaus/impeccable), [Ponytail](https://github.com/DietrichGebert/ponytail), собственные skills и rules |
+| Контекст и работа с кодом | `ctx`, Serena, Context7, DeepWiki, grep.app, LSP |
+| MCP-интеграции | GitHub, Figma, shadcn, Dart/Flutter, Chrome DevTools, sequential-thinking, OpenAI Docs |
+| Работа с браузером | Playwright CLI, Chrome DevTools MCP |
+
+### Прикладной стек
+
+| Область | Основные технологии |
+| --- | --- |
+| AI и ML | LangGraph, LangChain, PyTorch, scikit-learn, Hugging Face, OpenCV |
+| Инференс и RAG | vLLM, ONNX, Qdrant, гибридный поиск, reranking |
+| Бэкенд и интерфейсы | FastAPI, React, Next.js, Node.js, Flutter |
+| Данные и хранение | PostgreSQL, ClickHouse, Redis, Meilisearch, RustFS |
+| Разработка и наблюдаемость | Linux, macOS, Docker, GitHub Actions, OpenTelemetry, Prometheus, Grafana |
+| Эксперименты и оценка | MLflow, Weights & Biases, Optuna, Langfuse, LangSmith |
+
+Занимаюсь мультиагентной оркестрацией, RAG, компьютерным зрением и MLOps.
+Применяю явные границы сервисов, разделение OLTP/OLAP и transactional outbox
+там, где это нужно задаче.
+
+## Избранные open-source проекты
 
 <a href="https://github.com/NDDev-OpenNetwork/github-device-sync">
 <picture>
@@ -45,7 +85,7 @@ OSS-разработчик и контрибьютор. CEO [NDDev](https://ndde
 </a>
 
 **[Setup systems](https://github.com/NDDev-OpenNetwork/codex-setup-system)** · NDDev OpenNetwork  
-Инструменты настройки кодинг-агентов: явные целевые директории, резервные копии и восстановление. Начать можно с реализации для Codex.
+Инструменты настройки семи перечисленных харнессов: явные целевые директории, резервные копии и восстановление. Начать можно с реализации для Codex.
 
 ## В NDDev
 
@@ -62,7 +102,9 @@ OSS-разработчик и контрибьютор. CEO [NDDev](https://ndde
 
 Dev · AI · Design · R&D · Platform · OpenNetwork
 
-Среди прикладных работ: библиотеки Алматы, мобильное приложение, админ-панель и бэкенд.
+## Клиентские проекты
+
+Таможня Алматы · Библиотеки Алматы
 
 ## Связаться
 

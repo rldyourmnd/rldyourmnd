@@ -3,11 +3,51 @@
 **AI Staff Engineer · Systems & AI Architect**  
 OSS developer & contributor. CEO at [NDDev](https://nddev.it.com).
 
-I design and build AI systems and the tools used to develop them.
+I build AI systems, agent workflows and developer tools, from architecture to implementation.
 
 [Email](mailto:danil@nddev.it.com) · [Telegram](https://t.me/Danil_Silantyev) · [LinkedIn](https://www.linkedin.com/in/danil-silantyev-ai/)
 
-## Selected work
+## What I work with
+
+### Languages
+
+**Rust · Python · Go · C / C++ · TypeScript · Dart (Flutter)**  
+Also JavaScript, SQL and shell scripting.
+
+### Seven coding harnesses
+
+**Claude Code · Codex · Grok Build · Pi · OpenCode · Cursor · Antigravity**
+
+I work on the configuration around the model: instructions, skills, MCP servers,
+LSP integration, hooks, commands, subagents and plugins. Each harness gets its
+own native setup, not a copy of another tool's configuration.
+
+### Agent tooling
+
+| Area | Tools I use |
+| --- | --- |
+| API routing | [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI), LiteLLM, OpenRouter |
+| Design & code review | [Impeccable](https://github.com/pbakaus/impeccable), [Ponytail](https://github.com/DietrichGebert/ponytail), custom skills and rules |
+| Context & code intelligence | `ctx`, Serena, Context7, DeepWiki, grep.app, LSP |
+| MCP integrations | GitHub, Figma, shadcn, Dart/Flutter, Chrome DevTools, sequential-thinking, OpenAI Docs |
+| Browser work | Playwright CLI, Chrome DevTools MCP |
+
+### Application stack
+
+| Area | Selected technologies |
+| --- | --- |
+| AI & ML | LangGraph, LangChain, PyTorch, scikit-learn, Hugging Face, OpenCV |
+| Inference & RAG | vLLM, ONNX, Qdrant, hybrid search, reranking |
+| Backend & interfaces | FastAPI, React, Next.js, Node.js, Flutter |
+| Data & storage | PostgreSQL, ClickHouse, Redis, Meilisearch, RustFS |
+| Delivery & observability | Linux, macOS, Docker, GitHub Actions, OpenTelemetry, Prometheus, Grafana |
+| Experiments & evaluation | MLflow, Weights & Biases, Optuna, Langfuse, LangSmith |
+
+My work includes multi-agent orchestration, RAG, computer vision and MLOps.
+I use explicit service boundaries, OLTP/OLAP separation and transactional outboxes
+where the problem calls for them.
+
+## Selected open-source work
 
 <a href="https://github.com/NDDev-OpenNetwork/github-device-sync">
 <picture>
@@ -45,7 +85,7 @@ I work on architecture, the CLI and integrations. The CLI assembles versioned se
 </a>
 
 **[Setup systems](https://github.com/NDDev-OpenNetwork/codex-setup-system)** · NDDev OpenNetwork  
-Configuration tools for coding agents: explicit targets, backups and recovery. Start with the Codex implementation.
+Configuration tools for the seven harnesses above: explicit targets, backups and recovery. Start with the Codex implementation.
 
 ## At NDDev
 
@@ -62,7 +102,9 @@ I lead NDDev and stay hands-on with architecture and code.
 
 Dev · AI · Design · R&D · Platform · OpenNetwork
 
-Applied work includes Almaty City Libraries: a mobile app, admin panel and backend.
+## Selected client work
+
+Almaty Customs · Almaty City Libraries
 
 ## Get in touch
 

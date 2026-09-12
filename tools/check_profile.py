@@ -11,6 +11,7 @@ from urllib.parse import unquote, urlsplit
 import xml.etree.ElementTree as ET
 
 from render_profile import ROOT, expected_assets
+from check_workbench import validate_workbench
 
 SVG_NS = 'http://www.w3.org/2000/svg'
 ALLOWED_SVG = {'svg', 'title', 'desc', 'defs', 'pattern', 'marker', 'path',
@@ -177,6 +178,7 @@ def validate(root: Path) -> list[str]:
             errors.append(f'{file.name}: missing reduced-motion rule')
     if total > 128_000:
         errors.append('SVG collection exceeds 128 KB')
+    errors.extend(validate_workbench(root))
     return errors
 
 
@@ -188,7 +190,7 @@ def main() -> int:
     if errors:
         print('\n'.join(f'FAIL: {error}' for error in errors), file=sys.stderr)
         return 1
-    print('PASS: both READMEs, local references, 19 reproducible SVGs, passive content and size budgets.')
+    print('PASS: both READMEs, visible stack, names-only clients, local references, 19 reproducible SVGs, passive content and size budgets.')
     print('Not measured here: remote URLs, GitHub rendering, account settings, product runtime or GDS bundle validity.')
     return 0
 
