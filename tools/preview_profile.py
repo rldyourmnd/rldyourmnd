@@ -11,7 +11,7 @@ import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
 CSS_REPO = 'repos/sindresorhus/github-markdown-css/contents/github-markdown.css'
-FRAME_CSS = '''body{margin:0;background:#fff}.frame{max-width:900px;margin:32px auto;padding:24px;border:1px solid #d1d9e0;border-radius:6px}.markdown-body{font-size:16px}.markdown-body img{height:auto}.review{font:12px monospace;margin-bottom:24px;color:#656d76}@media(max-width:767px){.frame{margin:0;padding:16px;border:0}}@media(prefers-color-scheme: dark){body{background:#0d1117}.frame{border-color:#3d444d}}'''
+FRAME_CSS = '''body{margin:0;background:#fff}.frame{max-width:900px;margin:32px auto;padding:24px;border:1px solid #d1d9e0;border-radius:6px}.markdown-body{font-size:16px}.markdown-body img{height:auto}.review{font:12px monospace;margin-bottom:24px;color:#656d76}@media(max-width:767px){.frame{margin:0;padding:32px;border:0}}@media(prefers-color-scheme: dark){body{background:#0d1117}.frame{border-color:#3d444d}}'''
 
 
 def gh(endpoint, data=None):

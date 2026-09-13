@@ -18,7 +18,7 @@ GDS, ai-stp and setup systems are the selected work. ai-stp belongs to AI
 Engineers Guild. nremote retains attribution as a RustDesk fork. Third-party
 tools link to their own authors and are not presented as NDDev products.
 
-The organization table describes GitHub ownership, not equity or sole authorship.
+The organization list describes GitHub ownership, not equity or sole authorship.
 My Attention AI is listed as a separate organization; the owner's role there is
 omitted at their request. NDDev Archive is a clearly labelled archive.
 
@@ -84,7 +84,7 @@ local fixture to exercise source selection; they do not change browser or
 account settings. They are not proof of an actual OS preference change.
 
 Check 320/390/768/1440 px, both languages, both themes, motion/static selection,
-image loading, table overflow and SVG labels. A local preview uses GitHub's
+image loading, horizontal overflow and SVG labels. A local preview uses GitHub's
 Markdown sanitizer but is not the hosted profile. Review the final branch on
 GitHub too. Profile display on the main account changes only after merge.
 

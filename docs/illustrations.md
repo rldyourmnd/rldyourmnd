@@ -54,4 +54,3 @@ Use case: lighting-weather
 Asset type: dark mobile companion to the supplied 3:2 GitHub engineering illustration.
 Change only background, material brightness and lighting for a dark theme. Preserve the exact 3:2 composition, all seven peripheral modules and the central exploded graphite and glass assembly, their positions, shape, copper-orange connections and camera. Studio floor and background become charcoal #101418. Keep the objects clearly legible with satin titanium highlights, medium graphite surfaces and softly lit glass, refined architectural photography. Subtle copper accents, no neon. Fine drafting lines almost disappear into the charcoal. No text, no new objects, no logos. Preserve the full frame.
 ```
-

@@ -25,12 +25,10 @@ Also JavaScript, SQL and shell.
 
 Native instructions, skills, MCP, LSP, hooks, commands, subagents and plugins, adapted to each harness.
 
-| Agent workbench | Tools I use |
-| --- | --- |
-| Routing | [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) · LiteLLM · OpenRouter |
-| Skills & review | [Impeccable](https://github.com/pbakaus/impeccable) · [Ponytail](https://github.com/DietrichGebert/ponytail) · custom skills |
-| Context | `ctx` (agent session viewer) · Serena · Context7 · DeepWiki · grep.app |
-| MCP & browser | GitHub · Figma · shadcn · Dart/Flutter · Chrome DevTools · Playwright CLI · sequential-thinking · OpenAI Docs |
+- **Routing:** [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) · LiteLLM · OpenRouter
+- **Skills & review:** [Impeccable](https://github.com/pbakaus/impeccable) · [Ponytail](https://github.com/DietrichGebert/ponytail) · custom skills
+- **Context:** `ctx` (agent session viewer) · Serena · Context7 · DeepWiki · grep.app
+- **MCP & browser:** GitHub · Figma · shadcn · Dart/Flutter · Chrome DevTools · Playwright CLI · sequential-thinking · OpenAI Docs
 
 ## Selected open-source work
 
@@ -77,27 +75,23 @@ Also: [CI workflows](https://github.com/NDDev-OpenNetwork/ci-workflows) · [agen
 
 ## Application stack
 
-| Area | Working set |
-| --- | --- |
-| AI & ML | LangGraph · LangChain · PyTorch · scikit-learn · Hugging Face · OpenCV |
-| Inference & RAG | vLLM · ONNX · Qdrant · hybrid search · reranking |
-| Backend & UI | FastAPI · React · Next.js · Node.js · Flutter |
-| Data | PostgreSQL · ClickHouse · Redis · Meilisearch · RustFS |
-| Delivery | Linux · macOS · Docker · GitHub Actions · OpenTelemetry · Prometheus · Grafana |
-| Evaluation | MLflow · Weights & Biases · Optuna · Langfuse · LangSmith |
+- **AI & ML:** LangGraph · LangChain · PyTorch · scikit-learn · Hugging Face · OpenCV
+- **Inference & RAG:** vLLM · ONNX · Qdrant · hybrid search · reranking
+- **Backend & UI:** FastAPI · React · Next.js · Node.js · Flutter
+- **Data:** PostgreSQL · ClickHouse · Redis · Meilisearch · RustFS
+- **Delivery:** Linux · macOS · Docker · GitHub Actions · OpenTelemetry · Prometheus · Grafana
+- **Evaluation:** MLflow · Weights & Biases · Optuna · Langfuse · LangSmith
 
 ## Where the projects live
 
 Most of my work lives in organizations. I'm a GitHub owner in each of these:
 
-| Organization | Focus |
-| --- | --- |
-| [NDDev OpenNetwork](https://github.com/NDDev-OpenNetwork) | Open-source tools, setup systems, CI/CD |
-| [NDDev](https://github.com/NDDev-it-com) | Engineering studio and client work |
-| [NDDev Platform](https://github.com/NDDev-Platform) | Product platform |
-| [AI Engineers Guild](https://github.com/ai-engineers-guild) | Shared engineering projects, including ai-stp |
-| [My Attention AI](https://github.com/My-Attention-AI-Inc) | Separate company, outside NDDev |
-| [NDDev Archive](https://github.com/NDDev-Archive) | Retired projects and earlier experiments |
+- **[NDDev OpenNetwork](https://github.com/NDDev-OpenNetwork)** · Open-source tools, setup systems, CI/CD
+- **[NDDev](https://github.com/NDDev-it-com)** · Engineering studio and client work
+- **[NDDev Platform](https://github.com/NDDev-Platform)** · Product platform
+- **[AI Engineers Guild](https://github.com/ai-engineers-guild)** · Shared engineering projects, including ai-stp
+- **[My Attention AI](https://github.com/My-Attention-AI-Inc)** · Separate company, outside NDDev
+- **[NDDev Archive](https://github.com/NDDev-Archive)** · Retired projects and earlier experiments
 
 ## Selected client work
 

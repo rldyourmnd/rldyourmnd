@@ -25,12 +25,10 @@ AI-системы, инструменты для агентов и инфрас�
 
 Нативные instructions, skills, MCP, LSP, hooks, commands, subagents и plugins с учётом возможностей каждого харнесса.
 
-| Задача | Инструменты |
-| --- | --- |
-| API | [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) · LiteLLM · OpenRouter |
-| Скиллы и ревью | [Impeccable](https://github.com/pbakaus/impeccable) · [Ponytail](https://github.com/DietrichGebert/ponytail) · свои скиллы |
-| Контекст | `ctx` (просмотр сессий агентов) · Serena · Context7 · DeepWiki · grep.app |
-| MCP и браузер | GitHub · Figma · shadcn · Dart/Flutter · Chrome DevTools · Playwright CLI · sequential-thinking · OpenAI Docs |
+- **API:** [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) · LiteLLM · OpenRouter
+- **Скиллы и ревью:** [Impeccable](https://github.com/pbakaus/impeccable) · [Ponytail](https://github.com/DietrichGebert/ponytail) · свои скиллы
+- **Контекст:** `ctx` (просмотр сессий агентов) · Serena · Context7 · DeepWiki · grep.app
+- **MCP и браузер:** GitHub · Figma · shadcn · Dart/Flutter · Chrome DevTools · Playwright CLI · sequential-thinking · OpenAI Docs
 
 ## Избранные open-source проекты
 
@@ -77,27 +75,23 @@ AI-системы, инструменты для агентов и инфрас�
 
 ## Прикладной стек
 
-| Область | Чем пользуюсь |
-| --- | --- |
-| AI и ML | LangGraph · LangChain · PyTorch · scikit-learn · Hugging Face · OpenCV |
-| Инференс и RAG | vLLM · ONNX · Qdrant · гибридный поиск · реранкинг |
-| Бэкенд и UI | FastAPI · React · Next.js · Node.js · Flutter |
-| Данные | PostgreSQL · ClickHouse · Redis · Meilisearch · RustFS |
-| Поставка | Linux · macOS · Docker · GitHub Actions · OpenTelemetry · Prometheus · Grafana |
-| Оценка качества | MLflow · Weights & Biases · Optuna · Langfuse · LangSmith |
+- **AI и ML:** LangGraph · LangChain · PyTorch · scikit-learn · Hugging Face · OpenCV
+- **Инференс и RAG:** vLLM · ONNX · Qdrant · гибридный поиск · реранкинг
+- **Бэкенд и UI:** FastAPI · React · Next.js · Node.js · Flutter
+- **Данные:** PostgreSQL · ClickHouse · Redis · Meilisearch · RustFS
+- **Поставка:** Linux · macOS · Docker · GitHub Actions · OpenTelemetry · Prometheus · Grafana
+- **Оценка качества:** MLflow · Weights & Biases · Optuna · Langfuse · LangSmith
 
 ## Где живут проекты
 
 Большая часть моей работы находится в организациях. В каждой из этих организаций у меня роль GitHub owner:
 
-| GitHub | Проекты |
-| --- | --- |
-| [NDDev OpenNetwork](https://github.com/NDDev-OpenNetwork) | Открытый код, сетапы, CI/CD |
-| [NDDev](https://github.com/NDDev-it-com) | Инженерная студия и клиентские проекты |
-| [NDDev Platform](https://github.com/NDDev-Platform) | Продуктовая платформа |
-| [AI Engineers Guild](https://github.com/ai-engineers-guild) | Совместные инженерные проекты, включая ai-stp |
-| [My Attention AI](https://github.com/My-Attention-AI-Inc) | Отдельная компания вне NDDev |
-| [NDDev Archive](https://github.com/NDDev-Archive) | Архив работ |
+- **[NDDev OpenNetwork](https://github.com/NDDev-OpenNetwork)** · Открытый код, сетапы, CI/CD
+- **[NDDev](https://github.com/NDDev-it-com)** · Инженерная студия и клиентские проекты
+- **[NDDev Platform](https://github.com/NDDev-Platform)** · Продуктовая платформа
+- **[AI Engineers Guild](https://github.com/ai-engineers-guild)** · Совместные инженерные проекты, включая ai-stp
+- **[My Attention AI](https://github.com/My-Attention-AI-Inc)** · Отдельная компания вне NDDev
+- **[NDDev Archive](https://github.com/NDDev-Archive)** · Архив работ
 
 ## Клиентские проекты
 
