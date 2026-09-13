@@ -88,9 +88,13 @@ image loading, horizontal overflow and SVG labels. A local preview uses GitHub's
 Markdown sanitizer but is not the hosted profile. Review the final branch on
 GitHub too. Profile display on the main account changes only after merge.
 
-## Account fields outside the PR
+## Published account settings
 
-Prepared values, not applied account settings:
+Applied and verified on 2026-09-13 after merging PR #7: the profile README,
+bio, repository description and six pinned repositories. The public profile
+was checked without authentication. Website and contact already matched.
+
+Current values:
 
 - Bio: `AI Staff-level Engineer · CEO @NDDev-it-com. AI systems, agent tooling and infrastructure. I design the architecture and write the code.`
 - Repository description: `Danil Silantyev · AI Staff-level Engineer · CEO NDDev. AI systems, agent tooling and open-source projects.`
@@ -98,15 +102,16 @@ Prepared values, not applied account settings:
 - Contact: `danil@nddev.it.com`
 - Notes channel: `https://t.me/rldyourmnd`
 
-Suggested pin order: `NDDev-OpenNetwork/github-device-sync`,
+Published pin order: `NDDev-OpenNetwork/github-device-sync`,
 `ai-engineers-guild/ai-stp`, `NDDev-OpenNetwork/codex-setup-system`,
 `NDDev-OpenNetwork/ci-workflows`, `NDDev-OpenNetwork/agent-runtime`,
-`NDDev-OpenNetwork/nremote`. Check eligibility in the profile UI; organizational
-ownership alone does not establish eligibility. Avoid seven near-identical pins.
+`NDDev-OpenNetwork/nremote`. All six were eligible and are pinned. For future changes, check eligibility in
+the profile UI; organizational ownership alone does not establish eligibility.
 
 `assets/profile/social-preview.svg` is the editable 1280 × 640 master.
-`assets/profile/social-preview.png` is its ready-to-upload raster export. Neither
-has been applied to account settings. To export again:
+`assets/profile/social-preview.png` is its ready-to-upload raster export. The
+social-preview upload remains pending; the artwork is already available in this
+repository. To export again:
 
 ```sh
 uv run --with cairosvg python -c 'import cairosvg; cairosvg.svg2png(url="assets/profile/social-preview.svg",write_to="assets/profile/social-preview.png")'
