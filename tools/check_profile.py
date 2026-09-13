@@ -18,7 +18,8 @@ ALLOWED_SVG = {'svg', 'title', 'desc', 'defs', 'pattern', 'marker', 'path',
                'rect', 'g', 'text', 'style'}
 PROJECTS = ('NDDev-OpenNetwork/github-device-sync', 'ai-engineers-guild/ai-stp',
             'NDDev-OpenNetwork/codex-setup-system')
-CONTACTS = ('mailto:danil@nddev.it.com', 'https://t.me/Danil_Silantyev')
+CONTACTS = ('mailto:danil@nddev.it.com', 'https://t.me/Danil_Silantyev',
+            'https://t.me/ai_daniels')
 
 
 class Markup(HTMLParser):
@@ -96,8 +97,8 @@ def validate(root: Path) -> list[str]:
         errors.extend(f'{name}: {error}' for error in parser.errors)
         if parser.details or parser.pictures:
             errors.append(f'{name}: unclosed HTML')
-        if parser.images != 4:
-            errors.append(f'{name}: expected four image alternatives')
+        if parser.images != 3:
+            errors.append(f'{name}: expected three project images')
         if name == 'README.md' and re.search('[\u0400-\u04ff]', ''.join(parser.visible).replace('[Русский](README.ru.md)', '')):
             errors.append('README.md: untranslated body copy outside language navigation')
         if name == 'README.md' and '[Русский](README.ru.md)' not in text:
@@ -110,7 +111,9 @@ def validate(root: Path) -> list[str]:
             if value not in text:
                 errors.append(f'{name}: missing project or contact: {value}')
         for value in ('nddev-knowledge-graph', '/server-', '/client-', 'PRIVATE KEY',
-                      'img.shields.io', 'readme-stats', 'Curestry', 'CTO', 'CAIO'):
+                      'img.shields.io', 'readme-stats', 'Curestry', 'CTO', 'CAIO',
+                      'My Attention AI', 'My-Attention-AI-Inc',
+                      'assets/profile/assembly-', 'https://t.me/rldyourmnd'):
             if value.casefold() in text.casefold():
                 errors.append(f'{name}: unexpected profile content: {value}')
         refs = parser.refs + re.findall(r'\]\(([^)]+)\)', text)
@@ -176,12 +179,6 @@ def validate(root: Path) -> list[str]:
             errors.append(f'{file.name}: missing reduced-motion rule')
     if total > 160_000:
         errors.append('SVG collection exceeds 160 KB')
-    for name in ('assembly-light.png', 'assembly-dark.png', 'assembly-light-mobile.png', 'assembly-dark-mobile.png'):
-        asset = folder/name
-        if not asset.is_file():
-            errors.append(f'Missing illustration: {name}')
-        elif asset.stat().st_size > 2_097_152:
-            errors.append(f'{name}: illustration exceeds 2 MiB')
     errors.extend(validate_workbench(root))
     return errors
 

@@ -3,14 +3,7 @@
 **AI Staff-level Engineer · CEO [NDDev](https://nddev.it.com)**  
 AI systems, agent tooling and infrastructure. I design the architecture and write the code.
 
-[Email](mailto:danil@nddev.it.com) · [Telegram](https://t.me/Danil_Silantyev) · [Engineering notes](https://t.me/rldyourmnd) · [LinkedIn](https://www.linkedin.com/in/danil-silantyev-ai/) · [Русский](README.ru.md)
-
-<picture>
-  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="assets/profile/assembly-dark-mobile.png">
-  <source media="(max-width: 767px)" srcset="assets/profile/assembly-light-mobile.png">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/assembly-dark.png">
-  <img src="assets/profile/assembly-light.png" width="960" alt="A modular graphite and glass assembly connected by copper signal paths.">
-</picture>
+[Email](mailto:danil@nddev.it.com) · [Telegram](https://t.me/Danil_Silantyev) · [Engineering notes](https://t.me/ai_daniels) · [LinkedIn](https://www.linkedin.com/in/danil-silantyev-ai/) · [Русский](README.ru.md)
 
 ## What I work with
 
@@ -90,7 +83,6 @@ Most of my work lives in organizations. I'm a GitHub owner in each of these:
 - **[NDDev](https://github.com/NDDev-it-com)** · Engineering studio and client work
 - **[NDDev Platform](https://github.com/NDDev-Platform)** · Product platform
 - **[AI Engineers Guild](https://github.com/ai-engineers-guild)** · Shared engineering projects, including ai-stp
-- **[My Attention AI](https://github.com/My-Attention-AI-Inc)** · Separate company, outside NDDev
 - **[NDDev Archive](https://github.com/NDDev-Archive)** · Retired projects and earlier experiments
 
 ## Selected client work
@@ -101,4 +93,4 @@ Almaty Customs · Almaty City Libraries
 
 Building an AI system, growing an engineering team, or exploring a partnership? **[Write to me](https://t.me/Danil_Silantyev).**
 
-[Follow my notes](https://t.me/rldyourmnd), explore the code, and star the projects you find useful.
+[Follow my notes](https://t.me/ai_daniels), explore the code, and star the projects you find useful.

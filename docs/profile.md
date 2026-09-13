@@ -19,8 +19,7 @@ Engineers Guild. nremote retains attribution as a RustDesk fork. Third-party
 tools link to their own authors and are not presented as NDDev products.
 
 The organization list describes GitHub ownership, not equity or sole authorship.
-My Attention AI is listed as a separate organization; the owner's role there is
-omitted at their request. NDDev Archive is a clearly labelled archive.
+The profile lists five organizations. NDDev Archive is a clearly labelled archive.
 
 Client work is limited to exactly two names in each language. No links,
 descriptions, architecture, screenshots, domains or metrics belong in that
@@ -28,10 +27,9 @@ section. This rule also applies to image prompts and alternative text.
 
 ## Artwork and motion
 
-Four generated PNGs form one illustration family: light and dark panoramas,
-plus separate compact compositions for phones. The originals retain their
-metadata. Only the matching image loads on initial page display; each PNG is
-under 2 MiB. Prompts and generation provenance are in [illustrations.md](illustrations.md).
+The first screen goes directly from the introduction and contact links to the
+working stack. The owner removed the decorative assembly illustration and all
+four variants; the three project diagrams remain.
 
 Three isometric SVG diagrams have light/dark, mobile and desktop motion variants.
 The full generated set contains 19 SVGs including the social-preview master.
@@ -100,11 +98,11 @@ Current values:
 - Repository description: `Danil Silantyev · AI Staff-level Engineer · CEO NDDev. AI systems, agent tooling and open-source projects.`
 - Website: `https://nddev.it.com`
 - Contact: `danil@nddev.it.com`
-- Notes channel: `https://t.me/rldyourmnd`
+- Notes channel: `https://t.me/ai_daniels`
 
 Published pin order: `NDDev-OpenNetwork/github-device-sync`,
 `ai-engineers-guild/ai-stp`, `NDDev-OpenNetwork/codex-setup-system`,
-`NDDev-OpenNetwork/ci-workflows`, `NDDev-OpenNetwork/agent-runtime`,
+`NDDev-OpenNetwork/agent-runtime`, `NDDev-OpenNetwork/ci-workflows`,
 `NDDev-OpenNetwork/nremote`. All six were eligible and are pinned. For future changes, check eligibility in
 the profile UI; organizational ownership alone does not establish eligibility.
 

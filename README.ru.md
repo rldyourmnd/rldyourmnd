@@ -3,14 +3,7 @@
 **AI Staff-level Engineer · CEO [NDDev](https://nddev.it.com)**  
 AI-системы, инструменты для агентов и инфраструктура. Сам проектирую архитектуру и пишу код.
 
-[Почта](mailto:danil@nddev.it.com) · [Telegram](https://t.me/Danil_Silantyev) · [Инженерные заметки](https://t.me/rldyourmnd) · [LinkedIn](https://www.linkedin.com/in/danil-silantyev-ai/) · [English](README.md)
-
-<picture>
-  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="assets/profile/assembly-dark-mobile.png">
-  <source media="(max-width: 767px)" srcset="assets/profile/assembly-light-mobile.png">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/assembly-dark.png">
-  <img src="assets/profile/assembly-light.png" width="960" alt="Модульная система из графита и стекла, соединённая медными линиями.">
-</picture>
+[Почта](mailto:danil@nddev.it.com) · [Telegram](https://t.me/Danil_Silantyev) · [Инженерные заметки](https://t.me/ai_daniels) · [LinkedIn](https://www.linkedin.com/in/danil-silantyev-ai/) · [English](README.md)
 
 ## С чем работаю
 
@@ -90,7 +83,6 @@ AI-системы, инструменты для агентов и инфрас�
 - **[NDDev](https://github.com/NDDev-it-com)** · Инженерная студия и клиентские проекты
 - **[NDDev Platform](https://github.com/NDDev-Platform)** · Продуктовая платформа
 - **[AI Engineers Guild](https://github.com/ai-engineers-guild)** · Совместные инженерные проекты, включая ai-stp
-- **[My Attention AI](https://github.com/My-Attention-AI-Inc)** · Отдельная компания вне NDDev
 - **[NDDev Archive](https://github.com/NDDev-Archive)** · Архив работ
 
 ## Клиентские проекты
@@ -101,4 +93,4 @@ AI-системы, инструменты для агентов и инфрас�
 
 Строите AI-систему, собираете инженерную команду или ищете партнёра? **[Напишите мне](https://t.me/Danil_Silantyev).**
 
-[Подписывайтесь на заметки](https://t.me/rldyourmnd), смотрите код и ставьте звёзды полезным проектам.
+[Подписывайтесь на заметки](https://t.me/ai_daniels), смотрите код и ставьте звёзды полезным проектам.

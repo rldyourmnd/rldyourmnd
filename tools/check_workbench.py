@@ -17,7 +17,7 @@ UPSTREAMS = {
     'Ponytail': 'https://github.com/DietrichGebert/ponytail',
 }
 ORGANIZATIONS = ('NDDev-OpenNetwork', 'NDDev-it-com', 'NDDev-Platform',
-                 'ai-engineers-guild', 'My-Attention-AI-Inc', 'NDDev-Archive')
+                 'ai-engineers-guild', 'NDDev-Archive')
 SECTIONS = {
     'README.md': ('Languages', 'Seven coding harnesses', 'Selected open-source work',
                   'Selected client work', 'Almaty Customs · Almaty City Libraries'),
