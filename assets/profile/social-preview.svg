@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+<title id="title">Danil Silantyev</title><desc id="desc">AI Staff-level Engineer. CEO NDDev. AI systems, agent tooling and open source.</desc>
+<!-- GENERATED FILE. Edit-source: tools/render_profile.py; regenerate with python3 tools/render_profile.py. -->
+<defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#232b2f" stroke-width=".6"/></pattern>
+<marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="m1 1 4 2-4 2" fill="none" stroke="#f39364" stroke-width="1"/></marker></defs>
+<rect width="1280" height="640" rx="12" fill="#14191d"/>
+<rect x="1" y="1" width="1278" height="638" rx="11" fill="url(#grid)" stroke="#42494c"/>
+<text x="64" y="90" fill="#f39364" font-family="ui-monospace, monospace" font-size="22" font-weight="400" text-anchor="start">RLDYOURMND / NDDEV</text>
+<text x="64" y="208" fill="#f0ece4" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="600" text-anchor="start">Danil</text>
+<text x="64" y="299" fill="#f0ece4" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="600" text-anchor="start">Silantyev</text>
+<text x="64" y="377" fill="#f0ece4" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="400" text-anchor="start">AI Staff-level Engineer</text>
+<text x="64" y="424" fill="#b3b5af" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" text-anchor="start">CEO NDDev</text>
+<text x="64" y="565" fill="#f39364" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" text-anchor="start">GDS / ai-stp / Setup systems</text>
+<g transform="translate(966 384)">
+<path d="M-210 0 0 81.9V105.9L-210 24Z" fill="#263035" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M0 81.9 210 0V24L0 105.9Z" fill="#1e272b" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M-210 0 0 -81.9 210 0 0 81.9Z" fill="#313a3e" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M-210 0 0 81.9 210 0" fill="none" stroke="#42494c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M-84.0 -2 -4 29.400000000000002M-48.300000000000004 -18.9 54.6 21.0" fill="none" stroke="#b3b5af" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g transform="translate(966 302)">
+<path d="M-210 0 0 81.9V105.9L-210 24Z" fill="#263035" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M0 81.9 210 0V24L0 105.9Z" fill="#1e272b" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M-210 0 0 -81.9 210 0 0 81.9Z" fill="#313a3e" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M-210 0 0 81.9 210 0" fill="none" stroke="#42494c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M-84.0 -2 -4 29.400000000000002M-48.300000000000004 -18.9 54.6 21.0" fill="none" stroke="#b3b5af" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g transform="translate(966 220)">
+<path d="M-210 0 0 81.9V105.9L-210 24Z" fill="#263035" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M0 81.9 210 0V24L0 105.9Z" fill="#1e272b" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M-210 0 0 -81.9 210 0 0 81.9Z" fill="#313a3e" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M-210 0 0 81.9 210 0" fill="none" stroke="#f39364" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M-84.0 -2 -4 29.400000000000002M-48.300000000000004 -18.9 54.6 21.0" fill="none" stroke="#b3b5af" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</svg>

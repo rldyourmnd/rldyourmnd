@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="224" viewBox="0 0 960 224" role="img" aria-labelledby="title desc">
+<title id="title">Setup systems</title><desc id="desc">Back up the explicit target before applying a setup, then verify. Restore can return a saved backup to the target.</desc>
+<!-- GENERATED FILE. Edit-source: tools/render_profile.py; regenerate with python3 tools/render_profile.py. -->
+<defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#e8e5de" stroke-width=".6"/></pattern>
+<marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="m1 1 4 2-4 2" fill="none" stroke="#b54a1c" stroke-width="1"/></marker></defs>
+<rect width="960" height="224" rx="12" fill="#faf8f4"/>
+<rect x="1" y="1" width="958" height="222" rx="11" fill="url(#grid)" stroke="#ccc9c1"/>
+<style>@keyframes lift{0%,100%{transform:translateY(0)}45%,55%{transform:translateY(-9px)}}@keyframes signal{0%,100%{stroke-dashoffset:40;opacity:0}20%,80%{opacity:1}90%{stroke-dashoffset:0;opacity:0}}.lift{animation:lift 8s ease-in-out 6}.signal{animation:signal 8s ease-in-out 6;stroke-dasharray:3 17;opacity:0}@media(prefers-reduced-motion:reduce){.lift,.signal{animation:none}.signal{display:none}}</style>
+<text x="24" y="35" fill="#60645f" font-family="ui-monospace, monospace" font-size="12" font-weight="400" text-anchor="start">03 / OPEN SOURCE</text>
+<text x="24" y="78" fill="#252a2c" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="600" text-anchor="start">Setup systems</text>
+<text x="24" y="107" fill="#60645f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start">Seven native harnesses</text>
+<path d="M318 24V200" fill="none" stroke="#ccc9c1" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M355 169h136" fill="none" stroke="#ccc9c1" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M496 136H562" fill="none" stroke="#b54a1c" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M496 136H562" fill="none" stroke="#252a2c" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" class="signal"/>
+<path d="M567 169h136" fill="none" stroke="#ccc9c1" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M708 136H774" fill="none" stroke="#b54a1c" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M708 136H774" fill="none" stroke="#252a2c" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" class="signal"/>
+<path d="M779 169h136" fill="none" stroke="#ccc9c1" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(423 144)">
+<path d="M-68 0 0 26.52V36.519999999999996L-68 10Z" fill="#e3dfd6" stroke="#ccc9c1" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M0 26.52 68 0V10L0 36.519999999999996Z" fill="#d6d2c9" stroke="#ccc9c1" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M-68 0 0 -26.52 68 0 0 26.52Z" fill="#f0ede6" stroke="#ccc9c1" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M-68 0 0 26.52 68 0" fill="none" stroke="#ccc9c1" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M-27.200000000000003 -2 -4 9.520000000000001M-15.64 -6.12 17.68 6.800000000000001" fill="none" stroke="#60645f" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g transform="translate(423 124)">
+<g class="lift">
+<path d="M-68 0 0 26.52V36.519999999999996L-68 10Z" fill="#e3dfd6" stroke="#ccc9c1" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M0 26.52 68 0V10L0 36.519999999999996Z" fill="#d6d2c9" stroke="#ccc9c1" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M-68 0 0 -26.52 68 0 0 26.52Z" fill="#f0ede6" stroke="#ccc9c1" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M-68 0 0 26.52 68 0" fill="none" stroke="#b54a1c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M-27.200000000000003 -2 -4 9.520000000000001M-15.64 -6.12 17.68 6.800000000000001" fill="none" stroke="#60645f" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</g>
+<g transform="translate(635 134)">
+<path d="M-68 0 0 26.52V41.519999999999996L-68 15Z" fill="#e3dfd6" stroke="#ccc9c1" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M0 26.52 68 0V15L0 41.519999999999996Z" fill="#d6d2c9" stroke="#ccc9c1" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M-68 0 0 -26.52 68 0 0 26.52Z" fill="#f0ede6" stroke="#ccc9c1" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M-68 0 0 26.52 68 0" fill="none" stroke="#b54a1c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M-27.200000000000003 -2 -4 9.520000000000001M-15.64 -6.12 17.68 6.800000000000001" fill="none" stroke="#60645f" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g transform="translate(847 134)">
+<path d="M-68 0 0 26.52V41.519999999999996L-68 15Z" fill="#e3dfd6" stroke="#ccc9c1" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M0 26.52 68 0V15L0 41.519999999999996Z" fill="#d6d2c9" stroke="#ccc9c1" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M-68 0 0 -26.52 68 0 0 26.52Z" fill="#f0ede6" stroke="#ccc9c1" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M-68 0 0 26.52 68 0" fill="none" stroke="#ccc9c1" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M-27.200000000000003 -2 -4 9.520000000000001M-15.64 -6.12 17.68 6.800000000000001" fill="none" stroke="#60645f" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<path d="M835 131l8 7 17-14" fill="none" stroke="#b54a1c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="423" y="200" fill="#252a2c" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="middle">Back up</text>
+<text x="635" y="200" fill="#252a2c" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="middle">Apply</text>
+<text x="847" y="200" fill="#252a2c" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="middle">Verify</text>
+<text x="24" y="186" fill="#60645f" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" text-anchor="start">Saved backups · explicit targets</text>
+</svg>
