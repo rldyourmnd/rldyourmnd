@@ -16,6 +16,8 @@ UPSTREAMS = {
     'Impeccable': 'https://github.com/pbakaus/impeccable',
     'Ponytail': 'https://github.com/DietrichGebert/ponytail',
 }
+ORGANIZATIONS = ('NDDev-OpenNetwork', 'NDDev-it-com', 'NDDev-Platform',
+                 'ai-engineers-guild', 'My-Attention-AI-Inc', 'NDDev-Archive')
 SECTIONS = {
     'README.md': ('Languages', 'Seven coding harnesses', 'Selected open-source work',
                   'Selected client work', 'Almaty Customs · Almaty City Libraries'),
@@ -93,6 +95,9 @@ def validate_workbench(root: Path) -> list[str]:
         for label, url in UPSTREAMS.items():
             if f'[{label}]({url})' not in raw:
                 errors.append(f'{name}: missing verified upstream link: {label}')
+        for org in ORGANIZATIONS:
+            if f'](https://github.com/{org})' not in raw:
+                errors.append(f'{name}: missing organization link: {org}')
         # This narrow rule guards the agreed client section, not arbitrary secrets.
         client_copy = section(raw, client_heading)
         if client_copy is None or client_copy.strip() != names:

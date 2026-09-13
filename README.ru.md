@@ -1,106 +1,103 @@
 # Данил Силантьев
 
-**AI Staff Engineer · Архитектор систем и AI**  
-OSS-разработчик и контрибьютор. CEO [NDDev](https://nddev.it.com).
+**AI Staff-level Engineer · CEO [NDDev](https://nddev.it.com)**  
+AI-системы, инструменты для агентов и инфраструктура. Сам проектирую архитектуру и пишу код.
 
-Создаю AI-системы, агентные процессы и инструменты разработки, от архитектуры до реализации.
+[Почта](mailto:danil@nddev.it.com) · [Telegram](https://t.me/Danil_Silantyev) · [Инженерные заметки](https://t.me/rldyourmnd) · [LinkedIn](https://www.linkedin.com/in/danil-silantyev-ai/) · [English](README.md)
 
-[Email](mailto:danil@nddev.it.com) · [Telegram](https://t.me/Danil_Silantyev) · [LinkedIn](https://www.linkedin.com/in/danil-silantyev-ai/) · [English](README.md)
+<picture>
+  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="assets/profile/assembly-dark-mobile.png">
+  <source media="(max-width: 767px)" srcset="assets/profile/assembly-light-mobile.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/assembly-dark.png">
+  <img src="assets/profile/assembly-light.png" width="960" alt="Модульная система из графита и стекла, соединённая медными линиями.">
+</picture>
 
 ## С чем работаю
 
 ### Языки
 
 **Rust · Python · Go · C / C++ · TypeScript · Dart (Flutter)**  
-Также JavaScript, SQL и shell-скрипты.
+Также JavaScript, SQL и shell.
 
 ### Семь кодинг-харнессов
 
 **Claude Code · Codex · Grok Build · Pi · OpenCode · Cursor · Antigravity**
 
-Работаю с окружением модели: инструкциями, skills, MCP-серверами,
-LSP-интеграцией, hooks, commands, subagents и plugins. Для каждого харнесса
-использую его нативную конфигурацию, а не копию настроек другого инструмента.
+Нативные instructions, skills, MCP, LSP, hooks, commands, subagents и plugins с учётом возможностей каждого харнесса.
 
-### Инструменты агентов
-
-| Область | Чем пользуюсь |
+| Задача | Инструменты |
 | --- | --- |
-| Маршрутизация API | [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI), LiteLLM, OpenRouter |
-| Дизайн и ревью кода | [Impeccable](https://github.com/pbakaus/impeccable), [Ponytail](https://github.com/DietrichGebert/ponytail), собственные skills и rules |
-| Контекст и работа с кодом | `ctx`, Serena, Context7, DeepWiki, grep.app, LSP |
-| MCP-интеграции | GitHub, Figma, shadcn, Dart/Flutter, Chrome DevTools, sequential-thinking, OpenAI Docs |
-| Работа с браузером | Playwright CLI, Chrome DevTools MCP |
-
-### Прикладной стек
-
-| Область | Основные технологии |
-| --- | --- |
-| AI и ML | LangGraph, LangChain, PyTorch, scikit-learn, Hugging Face, OpenCV |
-| Инференс и RAG | vLLM, ONNX, Qdrant, гибридный поиск, reranking |
-| Бэкенд и интерфейсы | FastAPI, React, Next.js, Node.js, Flutter |
-| Данные и хранение | PostgreSQL, ClickHouse, Redis, Meilisearch, RustFS |
-| Разработка и наблюдаемость | Linux, macOS, Docker, GitHub Actions, OpenTelemetry, Prometheus, Grafana |
-| Эксперименты и оценка | MLflow, Weights & Biases, Optuna, Langfuse, LangSmith |
-
-Занимаюсь мультиагентной оркестрацией, RAG, компьютерным зрением и MLOps.
-Применяю явные границы сервисов, разделение OLTP/OLAP и transactional outbox
-там, где это нужно задаче.
+| API | [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) · LiteLLM · OpenRouter |
+| Скиллы и ревью | [Impeccable](https://github.com/pbakaus/impeccable) · [Ponytail](https://github.com/DietrichGebert/ponytail) · свои скиллы |
+| Контекст | `ctx` (просмотр сессий агентов) · Serena · Context7 · DeepWiki · grep.app |
+| MCP и браузер | GitHub · Figma · shadcn · Dart/Flutter · Chrome DevTools · Playwright CLI · sequential-thinking · OpenAI Docs |
 
 ## Избранные open-source проекты
 
 <a href="https://github.com/NDDev-OpenNetwork/github-device-sync">
 <picture>
-  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="assets/profile/gds-dark-mobile.svg">
-  <source media="(max-width: 640px)" srcset="assets/profile/gds-light-mobile.svg">
+  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="assets/profile/gds-dark-mobile.svg">
+  <source media="(max-width: 767px)" srcset="assets/profile/gds-light-mobile.svg">
   <source media="(prefers-reduced-motion: no-preference) and (prefers-color-scheme: dark)" srcset="assets/profile/gds-dark-motion.svg">
   <source media="(prefers-reduced-motion: no-preference)" srcset="assets/profile/gds-light-motion.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/gds-dark.svg">
-  <img src="assets/profile/gds-light.svg" width="960" alt="GDS: исходные данные, компилятор политик и контекста, неизменяемый пакет, локальные проекции репозиториев. Идентичность отделена от расположения рабочей копии.">
+  <img src="assets/profile/gds-light.svg" width="960" alt="GDS: канонический источник, компилятор политики и контекста, неизменяемый бандл, проекции в репозитории. Идентичность не зависит от пути.">
 </picture>
 </a>
 
-**[GDS](https://github.com/NDDev-OpenNetwork/github-device-sync)** · Управление репозиториями  
-Создаю инструменты, которые сохраняют согласованность идентичности репозиториев, политик и контекста агентов на разных устройствах. Путь к рабочей копии обозначает её расположение, а не идентичность.
+**[GDS](https://github.com/NDDev-OpenNetwork/github-device-sync)** · Разрабатываю control plane для идентичности репозиториев, политик и контекста агентов на разных устройствах.
 
 <a href="https://github.com/ai-engineers-guild/ai-stp">
 <picture>
-  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="assets/profile/ai-stp-dark-mobile.svg">
-  <source media="(max-width: 640px)" srcset="assets/profile/ai-stp-light-mobile.svg">
+  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="assets/profile/ai-stp-dark-mobile.svg">
+  <source media="(max-width: 767px)" srcset="assets/profile/ai-stp-light-mobile.svg">
+  <source media="(prefers-reduced-motion: no-preference) and (prefers-color-scheme: dark)" srcset="assets/profile/ai-stp-dark-motion.svg">
+  <source media="(prefers-reduced-motion: no-preference)" srcset="assets/profile/ai-stp-light-motion.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/ai-stp-dark.svg">
-  <img src="assets/profile/ai-stp-light.svg" width="960" alt="ai-stp: CLI собирает пакет, провайдер записывает нативную конфигурацию инструмента. Проект AI Engineers Guild.">
+  <img src="assets/profile/ai-stp-light.svg" width="960" alt="ai-stp: выбрать точные версии, собрать бандл, передать запись нативного состояния провайдеру харнесса. Проект AI Engineers Guild.">
 </picture>
 </a>
 
-**[ai-stp](https://github.com/ai-engineers-guild/ai-stp)** · AI Engineers Guild  
-Занимаюсь архитектурой, CLI и интеграциями. CLI собирает версионированные сетапы, а провайдеры записывают конфигурацию инструментов.
+**[ai-stp](https://github.com/ai-engineers-guild/ai-stp)** · Архитектура, CLI и интеграции. Совместный проект **AI Engineers Guild**.
 
 <a href="https://github.com/NDDev-OpenNetwork/codex-setup-system">
 <picture>
-  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="assets/profile/setup-dark-mobile.svg">
-  <source media="(max-width: 640px)" srcset="assets/profile/setup-light-mobile.svg">
+  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="assets/profile/setup-dark-mobile.svg">
+  <source media="(max-width: 767px)" srcset="assets/profile/setup-light-mobile.svg">
+  <source media="(prefers-reduced-motion: no-preference) and (prefers-color-scheme: dark)" srcset="assets/profile/setup-dark-motion.svg">
+  <source media="(prefers-reduced-motion: no-preference)" srcset="assets/profile/setup-light-motion.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/setup-dark.svg">
-  <img src="assets/profile/setup-light.svg" width="960" alt="Setup systems: резервная копия до изменения, применение и проверка. Восстановление возвращает сохранённое состояние в целевую директорию.">
+  <img src="assets/profile/setup-light.svg" width="960" alt="Setup systems: сохранить бэкап выбранной цели, применить нативный сетап, проверить результат. Из бэкапа можно восстановить состояние.">
 </picture>
 </a>
 
-**[Setup systems](https://github.com/NDDev-OpenNetwork/codex-setup-system)** · NDDev OpenNetwork  
-Инструменты настройки семи перечисленных харнессов: явные целевые директории, резервные копии и восстановление. Начать можно с реализации для Codex.
+**[Setup systems](https://github.com/NDDev-OpenNetwork/codex-setup-system)** · Мои инструменты конфигурации семи харнессов. Явная цель, полный бэкап и восстановление.
 
-## В NDDev
+Ещё: [CI workflows](https://github.com/NDDev-OpenNetwork/ci-workflows) · [agent-runtime](https://github.com/NDDev-OpenNetwork/agent-runtime) · [nremote](https://github.com/NDDev-OpenNetwork/nremote) (форк RustDesk).
 
-Руковожу NDDev и сам работаю над архитектурой и кодом.
+## Прикладной стек
 
-<a href="https://nddev.it.com">
-<picture>
-  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="assets/profile/nddev-dark-mobile.svg">
-  <source media="(max-width: 640px)" srcset="assets/profile/nddev-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/nddev-dark.svg">
-  <img src="assets/profile/nddev-light.svg" width="960" alt="Шесть направлений NDDev: Dev, AI, Design, R&amp;D, Platform и OpenNetwork.">
-</picture>
-</a>
+| Область | Чем пользуюсь |
+| --- | --- |
+| AI и ML | LangGraph · LangChain · PyTorch · scikit-learn · Hugging Face · OpenCV |
+| Инференс и RAG | vLLM · ONNX · Qdrant · гибридный поиск · реранкинг |
+| Бэкенд и UI | FastAPI · React · Next.js · Node.js · Flutter |
+| Данные | PostgreSQL · ClickHouse · Redis · Meilisearch · RustFS |
+| Поставка | Linux · macOS · Docker · GitHub Actions · OpenTelemetry · Prometheus · Grafana |
+| Оценка качества | MLflow · Weights & Biases · Optuna · Langfuse · LangSmith |
 
-Dev · AI · Design · R&D · Platform · OpenNetwork
+## Где живут проекты
+
+Большая часть моей работы находится в организациях. В каждой из этих организаций у меня роль GitHub owner:
+
+| GitHub | Проекты |
+| --- | --- |
+| [NDDev OpenNetwork](https://github.com/NDDev-OpenNetwork) | Открытый код, сетапы, CI/CD |
+| [NDDev](https://github.com/NDDev-it-com) | Инженерная студия и клиентские проекты |
+| [NDDev Platform](https://github.com/NDDev-Platform) | Продуктовая платформа |
+| [AI Engineers Guild](https://github.com/ai-engineers-guild) | Совместные инженерные проекты, включая ai-stp |
+| [My Attention AI](https://github.com/My-Attention-AI-Inc) | Отдельная компания вне NDDev |
+| [NDDev Archive](https://github.com/NDDev-Archive) | Архив работ |
 
 ## Клиентские проекты
 
@@ -108,6 +105,6 @@ Dev · AI · Design · R&D · Platform · OpenNetwork
 
 ## Связаться
 
-Есть проект или инженерная роль для обсуждения? [Напишите на почту](mailto:danil@nddev.it.com) или [в Telegram](https://t.me/Danil_Silantyev).
+Строите AI-систему, собираете инженерную команду или ищете партнёра? **[Напишите мне](https://t.me/Danil_Silantyev).**
 
-Пользуетесь одним из инструментов? Поставьте звезду его репозиторию или расскажите в issue, чего вам не хватает.
+[Подписывайтесь на заметки](https://t.me/rldyourmnd), смотрите код и ставьте звёзды полезным проектам.

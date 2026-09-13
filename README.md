@@ -1,106 +1,103 @@
 # Danil Silantyev
 
-**AI Staff Engineer · Systems & AI Architect**  
-OSS developer & contributor. CEO at [NDDev](https://nddev.it.com).
+**AI Staff-level Engineer · CEO [NDDev](https://nddev.it.com)**  
+AI systems, agent tooling and infrastructure. I design the architecture and write the code.
 
-I build AI systems, agent workflows and developer tools, from architecture to implementation.
+[Email](mailto:danil@nddev.it.com) · [Telegram](https://t.me/Danil_Silantyev) · [Engineering notes](https://t.me/rldyourmnd) · [LinkedIn](https://www.linkedin.com/in/danil-silantyev-ai/) · [Русский](README.ru.md)
 
-[Email](mailto:danil@nddev.it.com) · [Telegram](https://t.me/Danil_Silantyev) · [LinkedIn](https://www.linkedin.com/in/danil-silantyev-ai/)
+<picture>
+  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="assets/profile/assembly-dark-mobile.png">
+  <source media="(max-width: 767px)" srcset="assets/profile/assembly-light-mobile.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/assembly-dark.png">
+  <img src="assets/profile/assembly-light.png" width="960" alt="A modular graphite and glass assembly connected by copper signal paths.">
+</picture>
 
 ## What I work with
 
 ### Languages
 
 **Rust · Python · Go · C / C++ · TypeScript · Dart (Flutter)**  
-Also JavaScript, SQL and shell scripting.
+Also JavaScript, SQL and shell.
 
 ### Seven coding harnesses
 
 **Claude Code · Codex · Grok Build · Pi · OpenCode · Cursor · Antigravity**
 
-I work on the configuration around the model: instructions, skills, MCP servers,
-LSP integration, hooks, commands, subagents and plugins. Each harness gets its
-own native setup, not a copy of another tool's configuration.
+Native instructions, skills, MCP, LSP, hooks, commands, subagents and plugins, adapted to each harness.
 
-### Agent tooling
-
-| Area | Tools I use |
+| Agent workbench | Tools I use |
 | --- | --- |
-| API routing | [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI), LiteLLM, OpenRouter |
-| Design & code review | [Impeccable](https://github.com/pbakaus/impeccable), [Ponytail](https://github.com/DietrichGebert/ponytail), custom skills and rules |
-| Context & code intelligence | `ctx`, Serena, Context7, DeepWiki, grep.app, LSP |
-| MCP integrations | GitHub, Figma, shadcn, Dart/Flutter, Chrome DevTools, sequential-thinking, OpenAI Docs |
-| Browser work | Playwright CLI, Chrome DevTools MCP |
-
-### Application stack
-
-| Area | Selected technologies |
-| --- | --- |
-| AI & ML | LangGraph, LangChain, PyTorch, scikit-learn, Hugging Face, OpenCV |
-| Inference & RAG | vLLM, ONNX, Qdrant, hybrid search, reranking |
-| Backend & interfaces | FastAPI, React, Next.js, Node.js, Flutter |
-| Data & storage | PostgreSQL, ClickHouse, Redis, Meilisearch, RustFS |
-| Delivery & observability | Linux, macOS, Docker, GitHub Actions, OpenTelemetry, Prometheus, Grafana |
-| Experiments & evaluation | MLflow, Weights & Biases, Optuna, Langfuse, LangSmith |
-
-My work includes multi-agent orchestration, RAG, computer vision and MLOps.
-I use explicit service boundaries, OLTP/OLAP separation and transactional outboxes
-where the problem calls for them.
+| Routing | [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) · LiteLLM · OpenRouter |
+| Skills & review | [Impeccable](https://github.com/pbakaus/impeccable) · [Ponytail](https://github.com/DietrichGebert/ponytail) · custom skills |
+| Context | `ctx` (agent session viewer) · Serena · Context7 · DeepWiki · grep.app |
+| MCP & browser | GitHub · Figma · shadcn · Dart/Flutter · Chrome DevTools · Playwright CLI · sequential-thinking · OpenAI Docs |
 
 ## Selected open-source work
 
 <a href="https://github.com/NDDev-OpenNetwork/github-device-sync">
 <picture>
-  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="assets/profile/gds-dark-mobile.svg">
-  <source media="(max-width: 640px)" srcset="assets/profile/gds-light-mobile.svg">
+  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="assets/profile/gds-dark-mobile.svg">
+  <source media="(max-width: 767px)" srcset="assets/profile/gds-light-mobile.svg">
   <source media="(prefers-reduced-motion: no-preference) and (prefers-color-scheme: dark)" srcset="assets/profile/gds-dark-motion.svg">
   <source media="(prefers-reduced-motion: no-preference)" srcset="assets/profile/gds-light-motion.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/gds-dark.svg">
-  <img src="assets/profile/gds-light.svg" width="960" alt="GDS: source, policy and context compiler, immutable bundle, repository-local projections. Identity is separate from checkout location.">
+  <img src="assets/profile/gds-light.svg" width="960" alt="GDS: canonical source, policy and context compiler, immutable bundle, repository projections. Identity is independent of paths.">
 </picture>
 </a>
 
-**[GDS](https://github.com/NDDev-OpenNetwork/github-device-sync)** · Repository control plane  
-I build tools for keeping repository identity, policies and agent context consistent across devices. A checkout path is a location, not an identity.
+**[GDS](https://github.com/NDDev-OpenNetwork/github-device-sync)** · I build the control plane for repository identity, policy and agent context across devices.
 
 <a href="https://github.com/ai-engineers-guild/ai-stp">
 <picture>
-  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="assets/profile/ai-stp-dark-mobile.svg">
-  <source media="(max-width: 640px)" srcset="assets/profile/ai-stp-light-mobile.svg">
+  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="assets/profile/ai-stp-dark-mobile.svg">
+  <source media="(max-width: 767px)" srcset="assets/profile/ai-stp-light-mobile.svg">
+  <source media="(prefers-reduced-motion: no-preference) and (prefers-color-scheme: dark)" srcset="assets/profile/ai-stp-dark-motion.svg">
+  <source media="(prefers-reduced-motion: no-preference)" srcset="assets/profile/ai-stp-light-motion.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/ai-stp-dark.svg">
-  <img src="assets/profile/ai-stp-light.svg" width="960" alt="ai-stp: the CLI assembles a bundle; a provider writes the native harness state. AI Engineers Guild project.">
+  <img src="assets/profile/ai-stp-light.svg" width="960" alt="ai-stp: select exact versions, assemble a bundle, let the harness provider write native state. AI Engineers Guild.">
 </picture>
 </a>
 
-**[ai-stp](https://github.com/ai-engineers-guild/ai-stp)** · AI Engineers Guild  
-I work on architecture, the CLI and integrations. The CLI assembles versioned setups; providers write the harness configuration.
+**[ai-stp](https://github.com/ai-engineers-guild/ai-stp)** · Architecture, CLI and integrations. A shared project at **AI Engineers Guild**.
 
 <a href="https://github.com/NDDev-OpenNetwork/codex-setup-system">
 <picture>
-  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="assets/profile/setup-dark-mobile.svg">
-  <source media="(max-width: 640px)" srcset="assets/profile/setup-light-mobile.svg">
+  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="assets/profile/setup-dark-mobile.svg">
+  <source media="(max-width: 767px)" srcset="assets/profile/setup-light-mobile.svg">
+  <source media="(prefers-reduced-motion: no-preference) and (prefers-color-scheme: dark)" srcset="assets/profile/setup-dark-motion.svg">
+  <source media="(prefers-reduced-motion: no-preference)" srcset="assets/profile/setup-light-motion.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/setup-dark.svg">
-  <img src="assets/profile/setup-light.svg" width="960" alt="Setup systems: capture a backup before applying a change, then verify. Restore returns a saved backup to the target.">
+  <img src="assets/profile/setup-light.svg" width="960" alt="Setup systems: back up the explicit target, apply a native setup, verify. Saved backups provide a restore path.">
 </picture>
 </a>
 
-**[Setup systems](https://github.com/NDDev-OpenNetwork/codex-setup-system)** · NDDev OpenNetwork  
-Configuration tools for the seven harnesses above: explicit targets, backups and recovery. Start with the Codex implementation.
+**[Setup systems](https://github.com/NDDev-OpenNetwork/codex-setup-system)** · My configuration tools for seven harnesses. Explicit targets, complete backups and restore.
 
-## At NDDev
+Also: [CI workflows](https://github.com/NDDev-OpenNetwork/ci-workflows) · [agent-runtime](https://github.com/NDDev-OpenNetwork/agent-runtime) · [nremote](https://github.com/NDDev-OpenNetwork/nremote) (RustDesk fork).
 
-I lead NDDev and stay hands-on with architecture and code.
+## Application stack
 
-<a href="https://nddev.it.com">
-<picture>
-  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="assets/profile/nddev-dark-mobile.svg">
-  <source media="(max-width: 640px)" srcset="assets/profile/nddev-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/nddev-dark.svg">
-  <img src="assets/profile/nddev-light.svg" width="960" alt="NDDev: Dev, AI, Design, R&amp;D, Platform and OpenNetwork.">
-</picture>
-</a>
+| Area | Working set |
+| --- | --- |
+| AI & ML | LangGraph · LangChain · PyTorch · scikit-learn · Hugging Face · OpenCV |
+| Inference & RAG | vLLM · ONNX · Qdrant · hybrid search · reranking |
+| Backend & UI | FastAPI · React · Next.js · Node.js · Flutter |
+| Data | PostgreSQL · ClickHouse · Redis · Meilisearch · RustFS |
+| Delivery | Linux · macOS · Docker · GitHub Actions · OpenTelemetry · Prometheus · Grafana |
+| Evaluation | MLflow · Weights & Biases · Optuna · Langfuse · LangSmith |
 
-Dev · AI · Design · R&D · Platform · OpenNetwork
+## Where the projects live
+
+Most of my work lives in organizations. I'm a GitHub owner in each of these:
+
+| Organization | Focus |
+| --- | --- |
+| [NDDev OpenNetwork](https://github.com/NDDev-OpenNetwork) | Open-source tools, setup systems, CI/CD |
+| [NDDev](https://github.com/NDDev-it-com) | Engineering studio and client work |
+| [NDDev Platform](https://github.com/NDDev-Platform) | Product platform |
+| [AI Engineers Guild](https://github.com/ai-engineers-guild) | Shared engineering projects, including ai-stp |
+| [My Attention AI](https://github.com/My-Attention-AI-Inc) | Separate company, outside NDDev |
+| [NDDev Archive](https://github.com/NDDev-Archive) | Retired projects and earlier experiments |
 
 ## Selected client work
 
@@ -108,13 +105,6 @@ Almaty Customs · Almaty City Libraries
 
 ## Get in touch
 
-Have a project or an engineering role in mind? [Email me](mailto:danil@nddev.it.com) or [message me on Telegram](https://t.me/Danil_Silantyev).
+Building an AI system, growing an engineering team, or exploring a partnership? **[Write to me](https://t.me/Danil_Silantyev).**
 
-Using one of these tools? Star its repository or open an issue with what you need.
-
-<details>
-<summary>Other languages</summary>
-
-[Русский](README.ru.md)
-
-</details>
+[Follow my notes](https://t.me/rldyourmnd), explore the code, and star the projects you find useful.

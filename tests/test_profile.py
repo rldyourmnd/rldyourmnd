@@ -1,5 +1,6 @@
 """Regression checks; every mutation is isolated in a temporary directory."""
 from pathlib import Path
+import re
 import shutil
 import sys
 import tempfile
@@ -60,18 +61,14 @@ class ProfileTests(unittest.TestCase):
 
     def test_visible_russian(self):
         self.change('README.md', '## Selected open-source work', '## Избранное')
-        self.rejects('Russian is visible')
-
-    def test_open_language_details(self):
-        self.change('README.md', '<details>', '<details open>')
-        self.rejects('must be collapsed')
+        self.rejects('untranslated body copy')
 
     def test_removed_motion_preference(self):
         self.change('assets/profile/gds-dark-motion.svg', 'prefers-reduced-motion:reduce', 'print')
         self.rejects('missing reduced-motion')
 
     def test_unbounded_motion(self):
-        self.change('assets/profile/gds-dark-motion.svg', 'ease-in-out 1', 'ease-in-out infinite')
+        self.change('assets/profile/gds-dark-motion.svg', 'ease-in-out 6', 'ease-in-out infinite')
         self.rejects('unbounded content')
 
     def test_script(self):
@@ -116,7 +113,7 @@ class ProfileTests(unittest.TestCase):
             original = file.read_text(encoding='utf-8')
             for tool in TOOLS:
                 with self.subTest(document=name, tool=tool):
-                    file.write_text(original.replace(tool, 'REMOVED'), encoding='utf-8')
+                    file.write_text(re.sub(re.escape(tool), 'REMOVED', original, flags=re.I), encoding='utf-8')
                     self.rejects('tool not visible')
             file.write_text(original, encoding='utf-8')
 
@@ -165,7 +162,7 @@ class ProfileTests(unittest.TestCase):
         self.rejects('client name repeated')
 
     def test_guessed_ctx_link_rejected(self):
-        self.change('README.md', '`ctx`,', '[ctx](https://example.com),')
+        self.change('README.md', '`ctx` (agent session viewer)', '[ctx](https://example.com)')
         self.rejects('ctx must stay unlinked')
 
     def test_missing_workbench_document_rejected(self):

@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="224" viewBox="0 0 960 224" role="img" aria-labelledby="title desc">
-<title id="title">GDS</title><desc id="desc">Canonical source is compiled into an immutable policy and context bundle, then projected into repositories. Identity is independent of checkout paths.</desc>
+<title id="title">Setup systems</title><desc id="desc">Back up the explicit target before applying a setup, then verify. Restore can return a saved backup to the target.</desc>
 <!-- GENERATED FILE. Edit-source: tools/render_profile.py; regenerate with python3 tools/render_profile.py. -->
 <defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#232b2f" stroke-width=".6"/></pattern>
 <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="m1 1 4 2-4 2" fill="none" stroke="#f39364" stroke-width="1"/></marker></defs>
 <rect width="960" height="224" rx="12" fill="#14191d"/>
 <rect x="1" y="1" width="958" height="222" rx="11" fill="url(#grid)" stroke="#42494c"/>
 <style>@keyframes lift{0%,100%{transform:translateY(0)}45%,55%{transform:translateY(-9px)}}@keyframes signal{0%,100%{stroke-dashoffset:40;opacity:0}20%,80%{opacity:1}90%{stroke-dashoffset:0;opacity:0}}.lift{animation:lift 8s ease-in-out 6}.signal{animation:signal 8s ease-in-out 6;stroke-dasharray:3 17;opacity:0}@media(prefers-reduced-motion:reduce){.lift,.signal{animation:none}.signal{display:none}}</style>
-<text x="24" y="35" fill="#b3b5af" font-family="ui-monospace, monospace" font-size="12" font-weight="400" text-anchor="start">01 / OPEN SOURCE</text>
-<text x="24" y="78" fill="#f0ece4" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="600" text-anchor="start">GDS</text>
-<text x="24" y="107" fill="#b3b5af" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start">Repository control plane</text>
+<text x="24" y="35" fill="#b3b5af" font-family="ui-monospace, monospace" font-size="12" font-weight="400" text-anchor="start">03 / OPEN SOURCE</text>
+<text x="24" y="78" fill="#f0ece4" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="600" text-anchor="start">Setup systems</text>
+<text x="24" y="107" fill="#b3b5af" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start">Seven native harnesses</text>
 <path d="M318 24V200" fill="none" stroke="#42494c" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M355 169h136" fill="none" stroke="#42494c" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M496 136H562" fill="none" stroke="#f39364" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
@@ -17,21 +17,14 @@
 <path d="M708 136H774" fill="none" stroke="#f39364" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
 <path d="M708 136H774" fill="none" stroke="#f0ece4" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" class="signal"/>
 <path d="M779 169h136" fill="none" stroke="#42494c" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round"/>
-<g transform="translate(423 132)">
-<path d="M-68 0 0 26.52V36.519999999999996L-68 10Z" fill="#263035" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
-<path d="M0 26.52 68 0V10L0 36.519999999999996Z" fill="#1e272b" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
-<path d="M-68 0 0 -26.52 68 0 0 26.52Z" fill="#313a3e" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
-<path d="M-68 0 0 26.52 68 0" fill="none" stroke="#f39364" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M-27.200000000000003 -2 -4 9.520000000000001M-15.64 -6.12 17.68 6.800000000000001" fill="none" stroke="#b3b5af" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
-</g>
-<g transform="translate(635 144)">
+<g transform="translate(423 144)">
 <path d="M-68 0 0 26.52V36.519999999999996L-68 10Z" fill="#263035" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
 <path d="M0 26.52 68 0V10L0 36.519999999999996Z" fill="#1e272b" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
 <path d="M-68 0 0 -26.52 68 0 0 26.52Z" fill="#313a3e" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
 <path d="M-68 0 0 26.52 68 0" fill="none" stroke="#42494c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M-27.200000000000003 -2 -4 9.520000000000001M-15.64 -6.12 17.68 6.800000000000001" fill="none" stroke="#b3b5af" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
 </g>
-<g transform="translate(635 124)">
+<g transform="translate(423 124)">
 <g class="lift">
 <path d="M-68 0 0 26.52V36.519999999999996L-68 10Z" fill="#263035" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
 <path d="M0 26.52 68 0V10L0 36.519999999999996Z" fill="#1e272b" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
@@ -40,29 +33,23 @@
 <path d="M-27.200000000000003 -2 -4 9.520000000000001M-15.64 -6.12 17.68 6.800000000000001" fill="none" stroke="#b3b5af" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
 </g>
 </g>
-<g transform="translate(847 151)">
-<path d="M-68 0 0 26.52V32.519999999999996L-68 6Z" fill="#263035" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
-<path d="M0 26.52 68 0V6L0 32.519999999999996Z" fill="#1e272b" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
-<path d="M-68 0 0 -26.52 68 0 0 26.52Z" fill="#313a3e" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
-<path d="M-68 0 0 26.52 68 0" fill="none" stroke="#42494c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M-27.200000000000003 -2 -4 9.520000000000001M-15.64 -6.12 17.68 6.800000000000001" fill="none" stroke="#b3b5af" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
-</g>
-<g transform="translate(847 135)">
-<path d="M-68 0 0 26.52V32.519999999999996L-68 6Z" fill="#263035" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
-<path d="M0 26.52 68 0V6L0 32.519999999999996Z" fill="#1e272b" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
-<path d="M-68 0 0 -26.52 68 0 0 26.52Z" fill="#313a3e" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
-<path d="M-68 0 0 26.52 68 0" fill="none" stroke="#42494c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M-27.200000000000003 -2 -4 9.520000000000001M-15.64 -6.12 17.68 6.800000000000001" fill="none" stroke="#b3b5af" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
-</g>
-<g transform="translate(847 119)">
-<path d="M-68 0 0 26.52V32.519999999999996L-68 6Z" fill="#263035" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
-<path d="M0 26.52 68 0V6L0 32.519999999999996Z" fill="#1e272b" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
+<g transform="translate(635 134)">
+<path d="M-68 0 0 26.52V41.519999999999996L-68 15Z" fill="#263035" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M0 26.52 68 0V15L0 41.519999999999996Z" fill="#1e272b" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
 <path d="M-68 0 0 -26.52 68 0 0 26.52Z" fill="#313a3e" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
 <path d="M-68 0 0 26.52 68 0" fill="none" stroke="#f39364" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M-27.200000000000003 -2 -4 9.520000000000001M-15.64 -6.12 17.68 6.800000000000001" fill="none" stroke="#b3b5af" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
 </g>
-<text x="423" y="200" fill="#f0ece4" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="middle">Source</text>
-<text x="635" y="200" fill="#f0ece4" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="middle">Compile</text>
-<text x="847" y="200" fill="#f0ece4" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="middle">Repositories</text>
-<text x="24" y="186" fill="#b3b5af" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" text-anchor="start">Identity independent of paths</text>
+<g transform="translate(847 134)">
+<path d="M-68 0 0 26.52V41.519999999999996L-68 15Z" fill="#263035" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M0 26.52 68 0V15L0 41.519999999999996Z" fill="#1e272b" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M-68 0 0 -26.52 68 0 0 26.52Z" fill="#313a3e" stroke="#42494c" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M-68 0 0 26.52 68 0" fill="none" stroke="#42494c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M-27.200000000000003 -2 -4 9.520000000000001M-15.64 -6.12 17.68 6.800000000000001" fill="none" stroke="#b3b5af" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<path d="M835 131l8 7 17-14" fill="none" stroke="#f39364" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="423" y="200" fill="#f0ece4" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="middle">Back up</text>
+<text x="635" y="200" fill="#f0ece4" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="middle">Apply</text>
+<text x="847" y="200" fill="#f0ece4" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="middle">Verify</text>
+<text x="24" y="186" fill="#b3b5af" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" text-anchor="start">Saved backups · explicit targets</text>
 </svg>

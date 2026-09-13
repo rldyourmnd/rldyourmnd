@@ -1,59 +1,53 @@
 # Maintaining this profile
 
-The public page is `README.md`. `README.ru.md` is its parallel translation,
-linked inside collapsed navigation on the English page. Edit both together.
+Edit `README.md` and `README.ru.md` together. English is primary; language
+navigation is visible beside the contact links. The owner's current positioning
+is **AI Staff-level Engineer · CEO NDDev**. The audience is engineers, partners
+and prospective employers. The page should lead to a conversation, the notes
+channel, or the source of a useful project.
 
-## Content order
+## Content
 
-Identity and contacts come first. The visible workbench follows: languages,
-seven coding harnesses, agent tooling and the application stack. Then come
-GDS, ai-stp, setup systems, NDDev, the names-only client section and contact.
-Do not remove the stack or move it into images, comments or collapsed details
-in pursuit of a shorter README. The tools are part of the owner's identity.
+Keep the six primary languages and seven harnesses visible before the projects.
+The agent workbench is plain Markdown, including CLIProxyAPI, skills, MCP, LSP,
+Impeccable, Ponytail and `ctx`. The owner identifies `ctx` as an agent session
+viewer; an upstream link remains unknown. Application technologies follow the
+three main projects so the project links appear sooner.
 
-Keep tools used separate from projects authored. CLIProxyAPI, Impeccable and
-Ponytail link to their upstream authors; they are not presented as NDDev work.
-ai-stp is attributed to AI Engineers Guild. The named harnesses describe the
-owner's working set, not equal support for every extension on every harness.
+GDS, ai-stp and setup systems are the selected work. ai-stp belongs to AI
+Engineers Guild. nremote retains attribution as a RustDesk fork. Third-party
+tools link to their own authors and are not presented as NDDev products.
 
-Client projects have a strict presentation boundary. The English section is
-exactly two plain-text names; the Russian version contains their translations.
-Do not add implementation notes, links, domains, screenshots, metrics, client
-contacts or operational details. General stack information belongs in the
-workbench and is not attributed to either client project.
+The organization table describes GitHub ownership, not equity or sole authorship.
+My Attention AI is listed as a separate organization; the owner's role there is
+omitted at their request. NDDev Archive is a clearly labelled archive.
 
-See [content sources](content-sources.md) for provenance and the unresolved
-`ctx` identifier. Do not guess its expansion or upstream URL.
+Client work is limited to exactly two names in each language. No links,
+descriptions, architecture, screenshots, domains or metrics belong in that
+section. This rule also applies to image prompts and alternative text.
 
-## Design
+## Artwork and motion
 
-Four code-drawn SVG plates cover GDS, ai-stp, configuration recovery and NDDev's
-six divisions. Each has light/dark versions and a separate mobile composition.
-The `<picture>` breakpoint is 640 CSS pixels. All 19 assets, including motion
-variants and the social-preview master, remain unchanged by the stack revision.
+Four generated PNGs form one illustration family: light and dark panoramas,
+plus separate compact compositions for phones. The originals retain their
+metadata. Only the matching image loads on initial page display; each PNG is
+under 2 MiB. Prompts and generation provenance are in [illustrations.md](illustrations.md).
 
-Project descriptions, stack names and contact links are ordinary Markdown.
-No essential content is available only inside an image. Images have alternative
-text plus an SVG title and description. No generated photos, external fonts,
-image services, tracking pixels or live counters are used.
+Three isometric SVG diagrams have light/dark, mobile and desktop motion variants.
+The full generated set contains 19 SVGs including the social-preview master.
+SVG text is selectable when opened separately; all essential project identity
+and links are also available in Markdown. The mobile breakpoint is 767 px.
 
-Desktop GDS connectors have a single 3.6-second accent animation. Existing
-paths remain visible; mobile and reduced-motion visitors receive static files.
-The motion SVG also contains a CSS preference check. A renderer that ignores
-animation still displays the complete diagram.
+Desktop motion uses six slow, eight-second cycles of a 9 px layer lift and a
+signal moving along existing connectors. It finishes after 48 seconds. Mobile
+and reduced-motion readers get static files. The motion SVGs also check the
+system's reduced-motion preference internally. No JavaScript or remote images
+are required by the published README. The artwork is a software metaphor, not
+a hardware specification or an exhaustive product execution trace.
 
-GitHub sanitizes README HTML. Styling belongs in image files, not README
-`style`, `script`, `iframe` or inline SVG elements. Keep relative image paths
-so a branch previews its own assets. The workbench uses native Markdown tables.
+## Local checks
 
-References:
-- [GitHub's image theme pattern](https://github.blog/developer-skills/github/how-to-make-your-images-in-markdown-on-github-adjust-for-dark-mode-and-light-mode/)
-- [GitHub Markup rendering pipeline](https://github.com/github/markup#github-markup)
-- [SVG image-context restrictions](https://developer.mozilla.org/en-US/docs/Web/SVG/Guides/SVG_as_an_image)
-
-## Change and verify
-
-Python 3.10 or newer. Standard library only, with no installation or network step.
+Python 3.10+, standard library only:
 
 ```sh
 python3 tools/render_profile.py --check
@@ -61,59 +55,59 @@ python3 tools/check_profile.py
 python3 -m unittest discover -s tests -v
 ```
 
-To change a drawing, edit `tools/render_profile.py`, run it without `--check`,
-then run the commands above. Generated SVGs must reproduce byte-for-byte.
+To change a diagram, edit `tools/render_profile.py`, regenerate by running it
+without `--check`, and run the checks. The renderer removes only obsolete assets
+bearing its own previous generation marker. Do not hand-edit generated SVGs.
 
-`check_profile.py` covers local links, image alternatives, passive SVG content,
-size budgets and hidden Russian navigation. It calls `check_workbench.py` for
-visible language/tool coverage, exactly seven named harnesses, verified upstream
-link spelling and the names-only client section. The regression tests exercise
-both languages, including missing or hidden tools and accidental case details.
+Checks cover reproducibility, references, passive SVG content, size budgets,
+visible tools, organization links, attribution and the agreed client section.
+They are not a general secret scanner or evidence of tool installation health.
 
-These are editorial regression checks, not a general secret scanner, a proof of
-NDA compliance, a live installation inventory or product-runtime tests. When the
-owner changes the working set, update its explicit expectations rather than
-freezing an obsolete list. Checks stay local; no scheduled generation or new
-Actions workflow is added.
-
-Existing GDS-managed `AGENTS.md` and `.gds/` files are intentionally unchanged.
-These profile checks do not validate or replace the GDS bundle contract.
+The existing GDS files remain unchanged. The repository's GDS verification
+command is undeclared: **NOT_PROVEN**. Passing these profile-specific checks
+does not validate the GDS bundle or repair its pre-existing provenance drift.
 
 ## Browser review
 
-Review the branch on GitHub as well as locally. Check light/dark modes,
-320/390/768/1440 CSS pixel widths, reduced motion, both languages, image-disabled
-readability and the collapsed language link. Verify that the tables fit without
-horizontal scrolling and that the correct image variant is selected.
+The optional preview uses authenticated `gh`, GitHub's Markdown API and
+[github-markdown-css](https://github.com/sindresorhus/github-markdown-css).
+It sends only the two public README drafts to GitHub, writes preview files
+outside the repository, and binds its local server to 127.0.0.1.
 
-A local Markdown preview does not prove GitHub's current sanitizer or a signed-in
-user's theme settings. The latest local QA was repeated for the stack revision;
-no previous execution result should be treated as a test of a changed file.
+```sh
+python3 tools/preview_profile.py
+```
+
+Open the printed URL. Use `en.html` and `ru.html` for the browser's real media
+preferences. Files such as `en-dark-reduce.html` override media queries in the
+local fixture to exercise source selection; they do not change browser or
+account settings. They are not proof of an actual OS preference change.
+
+Check 320/390/768/1440 px, both languages, both themes, motion/static selection,
+image loading, table overflow and SVG labels. A local preview uses GitHub's
+Markdown sanitizer but is not the hosted profile. Review the final branch on
+GitHub too. Profile display on the main account changes only after merge.
 
 ## Account fields outside the PR
 
-README changes do not update account settings or pinned repositories.
-Prepared values, not claims that they have been applied:
+Prepared values, not applied account settings:
 
-**Name:** Danil Silantyev
+- Bio: `AI Staff-level Engineer · CEO @NDDev-it-com. AI systems, agent tooling and infrastructure. I design the architecture and write the code.`
+- Repository description: `Danil Silantyev · AI Staff-level Engineer · CEO NDDev. AI systems, agent tooling and open-source projects.`
+- Website: `https://nddev.it.com`
+- Contact: `danil@nddev.it.com`
+- Notes channel: `https://t.me/rldyourmnd`
 
-**Bio:**
+Suggested pin order: `NDDev-OpenNetwork/github-device-sync`,
+`ai-engineers-guild/ai-stp`, `NDDev-OpenNetwork/codex-setup-system`,
+`NDDev-OpenNetwork/ci-workflows`, `NDDev-OpenNetwork/agent-runtime`,
+`NDDev-OpenNetwork/nremote`. Check eligibility in the profile UI; organizational
+ownership alone does not establish eligibility. Avoid seven near-identical pins.
 
-> AI Staff Engineer · Systems & AI Architect. OSS developer & contributor. CEO @NDDev-it-com. Rust, Python, Go, C/C++, TypeScript, Dart.
+`assets/profile/social-preview.svg` is the editable 1280 × 640 master.
+`assets/profile/social-preview.png` is its ready-to-upload raster export. Neither
+has been applied to account settings. To export again:
 
-**Repository description:**
-
-> Danil Silantyev: AI systems, agent tooling, engineering stack and open-source work.
-
-**Website:** `https://nddev.it.com`
-
-**Contact:** `danil@nddev.it.com`
-
-**Pin order:** `NDDev-OpenNetwork/github-device-sync`,
-`ai-engineers-guild/ai-stp`, `NDDev-OpenNetwork/codex-setup-system`.
-Pin eligibility must be checked in the account UI. Do not fill every slot with
-near-identical providers.
-
-`assets/profile/social-preview.svg` is the editable 1280 x 640 master, not an
-applied repository setting. Export to PNG before the social-preview upload.
-See [GitHub's upload requirements](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview).
+```sh
+uv run --with cairosvg python -c 'import cairosvg; cairosvg.svg2png(url="assets/profile/social-preview.svg",write_to="assets/profile/social-preview.png")'
+```

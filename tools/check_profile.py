@@ -39,8 +39,6 @@ class Markup(HTMLParser):
             self.errors.append('Nonportable README HTML attributes')
         if tag == 'details':
             self.details += 1
-            if 'open' in values:
-                self.errors.append('Language navigation must be collapsed')
         elif tag == 'picture':
             self.pictures += 1
         elif tag == 'img':
@@ -100,8 +98,8 @@ def validate(root: Path) -> list[str]:
             errors.append(f'{name}: unclosed HTML')
         if parser.images != 4:
             errors.append(f'{name}: expected four image alternatives')
-        if name == 'README.md' and re.search('[\u0400-\u04ff]', ''.join(parser.visible)):
-            errors.append('README.md: Russian is visible outside collapsed navigation')
+        if name == 'README.md' and re.search('[\u0400-\u04ff]', ''.join(parser.visible).replace('[Русский](README.ru.md)', '')):
+            errors.append('README.md: untranslated body copy outside language navigation')
         if name == 'README.md' and '[Русский](README.ru.md)' not in text:
             errors.append('README.md: missing Russian navigation')
         if name == 'README.ru.md' and '[English](README.md)' not in text:
@@ -112,7 +110,7 @@ def validate(root: Path) -> list[str]:
             if value not in text:
                 errors.append(f'{name}: missing project or contact: {value}')
         for value in ('nddev-knowledge-graph', '/server-', '/client-', 'PRIVATE KEY',
-                      'img.shields.io', 'readme-stats', 'NDDev-Archive', 'Curestry', 'My Attention'):
+                      'img.shields.io', 'readme-stats', 'Curestry', 'CTO', 'CAIO'):
             if value.casefold() in text.casefold():
                 errors.append(f'{name}: unexpected profile content: {value}')
         refs = parser.refs + re.findall(r'\]\(([^)]+)\)', text)
@@ -176,8 +174,14 @@ def validate(root: Path) -> list[str]:
             errors.append(f'{file.name}: nonpassive or unbounded content')
         if 'animation:' in data and 'prefers-reduced-motion:reduce' not in data:
             errors.append(f'{file.name}: missing reduced-motion rule')
-    if total > 128_000:
-        errors.append('SVG collection exceeds 128 KB')
+    if total > 160_000:
+        errors.append('SVG collection exceeds 160 KB')
+    for name in ('assembly-light.png', 'assembly-dark.png', 'assembly-light-mobile.png', 'assembly-dark-mobile.png'):
+        asset = folder/name
+        if not asset.is_file():
+            errors.append(f'Missing illustration: {name}')
+        elif asset.stat().st_size > 2_097_152:
+            errors.append(f'{name}: illustration exceeds 2 MiB')
     errors.extend(validate_workbench(root))
     return errors
 

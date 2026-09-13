@@ -3,3 +3,7 @@
 
 # Claude Code configuration
 CLAUDE.md
+
+# Local Python checks
+__pycache__/
+*.py[cod]
