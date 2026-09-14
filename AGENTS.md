@@ -1,10 +1,10 @@
 <!--
 GENERATED FILE - DO NOT EDIT DIRECTLY
 generator: gds
-bundle: 0.4.0-dev
-source-tree-digest: sha256:9875a1ff737c3fb6740d1a1aadc1ab9f4cd31e0f7dbc561f47c784b99676da33
-input-digest: sha256:f9ded39b047ca4f5ede0849f696d1093fa3dda3e373430f5d4df0b41a9e9905c
-output-digest: sha256:6093de7df79e1a1e7eaf5b07467c12016ad3bb5e63e4078a846a1dc33b7a6fc5
+bundle: 0.9.4-dev
+source-tree-digest: sha256:ba597010d9403127df8c67102186ef40c546a08101d1a93201d17f8108deb520
+input-digest: sha256:11a1ffac48a4f18642bec9dffb744efe4f1d5cb23f50a584c79c61daf1a0a5a6
+output-digest: sha256:127c3730d1032edd2677b696ff83678b95986bfc6e81797ac1f7cda4459e926e
 edit-source:
   - .gds/repository.yaml
   - policies/base/repository-default.yaml
@@ -28,11 +28,11 @@ edit-source:
   starts with `gds context --json`; work inside this one does not need it.
 - Provider writes go through plan → approve → apply and are journaled.
 - Task-specific procedures live in `skills/canonical/<name>/SKILL.md`; the
-  profiles active here are `core`. Load one when the task
+  profiles active here are `core, drakkars`. Load one when the task
   matches it.
 
 ## Facts
 
-- Repository `repo_01KX8PR8BJEJWWKWFVBAV50C74`, roles `docs`, bundle `0.4.0-dev`.
+- Repository `repo_01KX8PR8BJEJWWKWFVBAV50C74`, roles `docs`, bundle `0.9.4-dev`.
 - Canonical inputs: `.gds/repository.yaml`; compiled result: `.gds/compiled-policy.json`.
 - Visibility `public`, data `public`.
