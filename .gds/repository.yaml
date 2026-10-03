@@ -16,7 +16,7 @@ provider:
 
 classification:
   portfolios:
-    - "portfolio:personal-projects"
+    - "portfolio:rldyourmnd"
   visibility_contract: "public"
   data_classification: "public"
 
