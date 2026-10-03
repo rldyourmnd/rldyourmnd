@@ -1,10 +1,10 @@
 <!--
 GENERATED FILE - DO NOT EDIT DIRECTLY
 generator: gds
-bundle: 0.9.4-dev
-source-tree-digest: sha256:ba597010d9403127df8c67102186ef40c546a08101d1a93201d17f8108deb520
-input-digest: sha256:11a1ffac48a4f18642bec9dffb744efe4f1d5cb23f50a584c79c61daf1a0a5a6
-output-digest: sha256:127c3730d1032edd2677b696ff83678b95986bfc6e81797ac1f7cda4459e926e
+bundle: 0.9.7-dev
+source-tree-digest: sha256:6944618359758df76e230e0ba2edc12f342944d25479d445884231d4a3fc8cb1
+input-digest: sha256:00e36b02ab2c89758bf9320f548b893ef9cffcb02a3d136fbb9edeb55da2a425
+output-digest: sha256:0d0e7dc0616248b315907cd6897c0aa2209c2a366fea010f56fcc4d029bb0451
 edit-source:
   - .gds/repository.yaml
   - policies/base/repository-default.yaml
@@ -33,6 +33,6 @@ edit-source:
 
 ## Facts
 
-- Repository `repo_01KX8PR8BJEJWWKWFVBAV50C74`, roles `docs`, bundle `0.9.4-dev`.
+- Repository `repo_01KX8PR8BJEJWWKWFVBAV50C74`, roles `docs`, bundle `0.9.7-dev`.
 - Canonical inputs: `.gds/repository.yaml`; compiled result: `.gds/compiled-policy.json`.
 - Visibility `public`, data `public`.
