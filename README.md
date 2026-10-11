@@ -12,9 +12,9 @@ AI systems, agent tooling and infrastructure. I design the architecture and writ
 **Rust · Python · Go · C / C++ · TypeScript · Dart (Flutter)**  
 Also JavaScript, SQL and shell.
 
-### Seven coding harnesses
+### Eight coding harnesses
 
-**Claude Code · Codex · Grok Build · Pi · OpenCode · Cursor · Antigravity**
+**Claude Code · Codex · Grok Build · Pi · OpenCode · Cursor · Antigravity · Z Code**
 
 Native instructions, skills, MCP, LSP, hooks, commands, subagents and plugins, adapted to each harness.
 
