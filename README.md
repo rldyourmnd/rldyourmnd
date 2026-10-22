@@ -46,6 +46,6 @@ engineering systems and open-source work.
 
 ## Contact
 
-[Email](mailto:danil@nddev.it.com) · [Telegram](https://t.me/Danil_Silantyev) ·
+[Email](mailto:danil@nddev.ai) · [Telegram](https://t.me/Danil_Silantyev) ·
 [Engineering notes](https://t.me/ai_daniels) ·
 [LinkedIn](https://www.linkedin.com/in/danil-silantyev-ai/)
